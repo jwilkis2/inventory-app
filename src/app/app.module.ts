@@ -5,11 +5,15 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ProductListComponent } from './product-list/product-list.component';
+import { ProductRowComponent } from './product-row/product-row.component';
+import { ProductImageComponent } from './product-image/product-image.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductListComponent
+    ProductListComponent,
+    ProductRowComponent,
+    ProductImageComponent
   ],
   imports: [
     BrowserModule,
